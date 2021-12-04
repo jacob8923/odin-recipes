@@ -1,0 +1,38 @@
+
+var ftGUID_4645534="49812631AFE516";
+var ftConfID_4645534="0";
+var ftParams_4645534="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F23600%2Fworlds-best-lasagna%2F&cachebuster=955823.8407781874";
+var ftKeyword_4645534="";
+var ftCustom_4645534="";
+var ftSection_4645534="";
+var ftSegment_4645534="ag2i,aanx,agpy,wg2,ahp3,afr5,ag97,ag9e,ahac,ag99,ahae,wg266945,s2v,tob";
+var ftSegmentList_4645534=[{s:'ag2i'},{s:'aanx',t:49810000},{m:'c8562_products',s:'agpy'},{s:'wg2'},{s:'ahp3'},{s:'afr5'},{s:'ag97'},{s:'ag9e'},{s:'ahac'},{s:'ag99'},{s:'ahae'},{m:'wg2',s:'wg266945'},{s:'s2v'},{s:'tob',t:50640000}];
+var ftRuleMatch_4645534="0";
+var ftTimestamp_4645534="1638641470";
+var ftGeoC2_4645534="us";
+var ftGeoState_4645534="ma";
+var ftGeoCity_4645534="boston";
+var ftISP_4645534="boston university";
+var ftSpeed_4645534="broadband";
+var ftDMA_4645534="506";
+var ftLong_4645534="-71.1";
+var ftLat_4645534="42.34";
+var ftPostal_4645534="02215";
+var ftTimeZone_4645534="-500";
+var ftMobileCarrier_4645534="";
+var ftImp4645534 = {};
+ftImp4645534.privacy = "x";
+ftImp4645534.guidAge = "105";
+ftImp4645534.impID = "7FDDAB07-C09E-4159-0F31-204AE7280B3B";
+ftImp4645534.duid = "FT:49812631AFE516";
+
+ftImp4645534.ft_tpplid = "";
+ftImp4645534.ft_c = {};
+ftImp4645534.gdpr = "";
+ftImp4645534.gdpr_consent = "";
+ftImp4645534.gdpr_pd = "";
+ftImp4645534.oob_consent = "";
+ftImp4645534.gdprStoredConsent = "";
+ftImp4645534.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/464/4645534/3448472/js/j-4645534-3448472.js" id="ftscript_m4645534" name="ftscript_m4645534"></scr'+'ipt>');

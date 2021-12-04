@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0157)https://s0.2mdn.net/sadbundle/8664001573401133056/CD~US-VBGN-2100370_CA~B_PR~UROVANT-DTC_CM~EPSILON-TARGETED-_TA~RURAL_DT~CROSS_CT~HTML5_SZ~728X90/index.html -->
+<html class="wf-roboto-n4-active wf-roboto-n7-active wf-skranji-n7-active wf-skranji-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!--~stamp--><!--<uid>2289</uid> <timestamp>1.6331.1976.1857</timestamp> <date>Fri Oct 01 2021 15:22:41 GMT-0500 (Colombia Standard Time)</date>--><!--stamp~-->
+        <title>728x90-v2,gcmd</title>
+        <style>#adBody div{opacity:0;}</style>
+        <script src="./webfont.js" async=""></script><script>
+            /*~isiClickTags*/
+            var isiLink101 = "https://gemtesa.com/sites/default/files/gemtesa-prescribing-information.pdf";
+                        
+            var isiLink102 = "https://gemtesa.com/sites/default/files/gemtesa-prescribing-information.pdf";
+                        
+            var isiLink103 = "https://www.google.com?isiLink103";
+			/*isiClickTags~*/
+            
+            var clickTag1 = "https://gemtesa.com/savings-program";
+            var googleFontsLinkHTML = '<link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">';
+        </script>
+        <link rel="stylesheet" href="./styles.css">
+        <!--~addonfiles--><script src="./gsap.min.js"></script><script src="./ScrollToPlugin.min.js"></script><script src="./SplitText.min.js"></script><script src="./isiText.js"></script><script src="./ISI.min.js"></script><script src="./intouch.min.js"></script><script src="./fontLoader.min.js"></script><script src="./gcmd.min.js"></script><!--addonfiles~-->
+        <script src="./main(1).js"></script>
+        
+    <link rel="stylesheet" href="./css(1)" media="all"><script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script><style type="text/css">body {margin:0}#adHolder {overflow: hidden;position: absolute;width:728px;height:90px;background-color: #ffffff;}#hotspot {position: absolute;width:728px;height:90px;cursor:pointer;}#adBody div{position:absolute;}#borderHolder div{position:absolute;}#adBody div {text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;box-sizing: content-box;background-repeat:no-repeat;}</style><style type="text/css">.isiBody {font-family: Arial, sans-serif; font-weight:400;color:#5B6770;background-color:#ffffff;letter-spacing: 0em;}#blackbox {padding:3px; border:1px solid #000000; font-weight:400; position:relative; opacity:1 !important}#projectISINumber, #projectISIDate {color:#5B6770; font-weight:400; width:100%; text-align:right;margin-bottom:0;}h1 { font-family: Arial, sans-serif; font-weight: 700; color:#358082; font-weight:700; line-height:11px; margin-top: 0em;}h2 { color:#358082; font-weight:700;}ul.isiUL {  padding-left:7px;margin-top: 5px;list-style-type:none;margin-bottom: 0px; }li.isiLI:before{left:-7px;top:0px; content:'•';position:absolute;width:12px;height:12px;}li.isiLI {position:relative;}ul.isiUL ul.isiUL li.isiLI:before{background-size:5px;left:-14px;top:3px; content:'';background-image:url(data:image/svg+xml;base64,PHN2ZyBpZD0iYnVsbGV0RGlzYyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMmUzMTkyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgdmlld0JveD0iMCAwIDI1IDI1Ij48Y2lyY2xlIGN4PSIxMi41IiBjeT0iMTIuNSIgcj0iMTAuOSIvPjwvc3ZnPg==);background-repeat:no-repeat;position:absolute;width:25px;height:25px;}ul.isiUL ul.isiUL li.isiLI {position:relative;}.moveup {margin-top:-0.7em;}#isiBody sup {vertical-align:text-top;font-size:0.6em;line-height:1.5em;}#urovantISILogo {width:63px; height:17px;background-image:url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDggMTc1LjgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4udXJvY29sMHtmaWxsOiMxMTRiODd9LnVyb2NvbDF7ZmlsbDojMDJhZTRifTwvc3R5bGU+PHBhdGggY2xhc3M9InVyb2NvbDAiIGQ9Ik0yODAuMyA1MS40YzAgMzEuMy0xNCA1Mi42LTQ0LjMgNTIuNi0zMC4xIDAtNDIuNS0xOC42LTQyLjUtNTAuNSAwLTMxLjQgMTQtNTMuNSA0NC41LTUzLjUgMjkuOCAwIDQyLjMgMTkuNyA0Mi4zIDUxLjR6bS02Ny41LjRjMCAyMC4zIDQuNSAzOC4zIDI1LjIgMzguMyAxNy40IDAgMjMtMTUuOSAyMy0zNy4zIDAtMjAuMy00LjUtMzkuMS0yNS4yLTM5LjEtMTcuNS4xLTIzIDE2LjctMjMgMzguMXoiLz48cGF0aCBjbGFzcz0idXJvY29sMSIgZD0iTTM1NCAxMzAuM2wtMy41IDYuMWMuMSAwLTUuNi0zLjMtMTAtMy4zLTMuNCAwLTYuMyAxLjYtNi4zIDUgMCA0LjMgMi43IDYuNyA4LjUgOSA3LjUgMyAxMi4xIDYuMyAxMi4xIDE0LjIgMCA3LjMtNS42IDE0LjUtMTYgMTQuNS03LjQgMC0xMy41LTMuNS0xNS40LTQuNmwzLTYuNWMtLjEgMCA3LjggNC42IDExLjkgNC42IDUgMCA3LjUtMi42IDcuNS03IDAtNC4zLTIuNy01LjgtNy4xLTcuNi04LjUtMy42LTEzLjctNi45LTEzLjctMTUuMSAwLTcgNi4zLTEyLjggMTUuMS0xMi44IDYuNi0uMiAxMi42IDIuNiAxMy45IDMuNXpNMzkxLjYgMTM2LjljLTIuMy0yLjQtNC43LTMuOC04LTMuOC04LjEgMC0xMSA4LTExIDE4czIuNSAxOC4xIDExLjYgMTguMWM0LjMgMCA4LjMtMS43IDktMS44bDIgNmMuMS0uMS01LjMgMi40LTEyLjYgMi40LTEyLjcgMC0xOS4xLTguNC0xOS4xLTIzLjkgMC0xNC45IDYuOC0yNS4zIDIxLTI1LjMgNS43IDAgOS4yIDIuNSAxMS40IDUuMWwtNC4zIDUuMnpNNDA1LjIgMTI3LjJoOC41djQ4LjFoLTguNXYtNDguMXpNNDI2LjQgMTI3LjJINDU1djYuNGgtMjAuMVYxNDdoMTYuNmwtMS4xIDYuNWgtMTUuNVYxNjloMjEuMnY2LjRoLTI5Ljd2LTQ4LjJ6TTQ5NC4yIDEyNy4yaDguNXY0OC4yaC03bC0xNi4yLTI1LjNjLTEuOC0yLjctNC4xLTYuNS02LTkuNS4zIDMuMS42IDYuNS42IDkuNWwuMiAyNS4yaC04LjVWMTI3aDYuNmwxNi43IDI1YzEuOSAyLjcgMy45IDYgNS44IDguOC0uMi0zLjEtLjQtNi4zLS40LTguNWwtLjMtMjUuMXpNNTQxLjkgMTM2LjljLTIuMy0yLjQtNC43LTMuOC04LTMuOC04LjEgMC0xMSA4LTExIDE4czIuNSAxOC4xIDExLjYgMTguMWM0LjMgMCA4LjMtMS43IDktMS44bDIgNmMuMS0uMS01LjMgMi40LTEyLjYgMi40LTEyLjcgMC0xOS4xLTguNC0xOS4xLTIzLjkgMC0xNC45IDYuOC0yNS4zIDIxLTI1LjMgNS43IDAgOS4yIDIuNSAxMS40IDUuMWwtNC4zIDUuMnpNNTU1LjUgMTI3LjJoMjguNnY2LjRINTY0VjE0N2gxNi42bC0xLjEgNi41SDU2NFYxNjloMjEuMnY2LjRoLTI5Ljd2LTQ4LjJ6TTYyMi42IDEzMC4zbC0zLjUgNi4xYy4xIDAtNS42LTMuMy0xMC0zLjMtMy40IDAtNi4zIDEuNi02LjMgNSAwIDQuMyAyLjcgNi43IDguNSA5IDcuNSAzIDEyLjEgNi4zIDEyLjEgMTQuMiAwIDcuMy01LjYgMTQuNS0xNiAxNC41LTcuNCAwLTEzLjUtMy41LTE1LjQtNC42bDMtNi41Yy0uMSAwIDcuOCA0LjYgMTEuOSA0LjYgNSAwIDcuNS0yLjYgNy41LTcgMC00LjMtMi43LTUuOC03LjEtNy42LTguNS0zLjYtMTMuNy02LjktMTMuNy0xNS4xIDAtNyA2LjMtMTIuOCAxNS4xLTEyLjggNi42LS4yIDEyLjYgMi42IDEzLjkgMy41eiIvPjxwYXRoIGNsYXNzPSJ1cm9jb2wwIiBkPSJNMTcuNyAxLjR2NjNjMCAxOC42IDguNCAyNS44IDIxLjggMjUuOCAxMy41IDAgMjAtOS42IDIwLTI1Ljh2LTYzaDE3Ljl2NjQuM2MwIDIwLjctMTAuMSAzOC4zLTM5LjggMzguM0M5LjMgMTA0IDAgODYuNCAwIDY1LjdWMS40aDE3Ljd6TTE1MC4zIDU0LjFjMTMuMi00LjEgMTguNi0xMy43IDE4LjYtMjUuMiAwLTE3LjYtMTEtMjcuOC0zNS44LTI3LjgtOCAwLTI3LjIuMy0zMC4yLjN2MTAxLjdoMTcuOXYtNDRoLjFWNDZoLS4xVjEzLjhoMTAuMWMxNC43IDAgMTkuMSA4LjQgMTkuMSAxNy4zIDAgOS44LTYuNSAxNC45LTE3LjYgMTQuOWgtLjVNMzQxLjQgMTAzLjFoLTE0bC0zOC0xMDEuN2gxOS4xbDEyLjYgMzYuNGM2LjUgMTguOCAxMS4xIDMzLjcgMTMuNSA0MS4zIDIuMy03LjUgNi44LTIxLjkgMTMuNS00MWwxMy4xLTM2LjdoMTguMmwtMzggMTAxLjd6TTU0MS4yIDEuNEg1NTl2MTAxLjloLTE0LjlsLTM0LjMtNTMuNWMtMy44LTUuNy04LjctMTMuOC0xMi42LTIwIC42IDYuNSAxLjIgMTMuOCAxLjIgMjAuMWwuNSA1My4ySDQ4MVYxLjFoMTRMNTMwLjMgNTRjMy45IDUuNyA4LjMgMTIuNiAxMi4yIDE4LjYtLjUtNi41LS45LTEzLjQtLjktMThsLS40LTUzLjJ6TTY0OCAxLjRsLTIuMyAxMy41aC0yNS4ydjg4LjJoLTE3LjdWMTQuOWgtMjUuN1YxLjRINjQ4eiIvPjxwYXRoIGNsYXNzPSJ1cm9jb2wwIiBkPSJNMTY4LjkgNzIuNUMxNTYuMSA0My44IDEzMi40IDQ2IDEzMi40IDQ2aC0zLjl2Mi4yYzEwLjEgNC4xIDExIDExLjggMjIuMyAzNi4yIDEzLjcgMjkuNSA0My43IDE4LjcgNDMuNyAxOC43cy0xMi43LTEuOS0yNS42LTMwLjZ6Ii8+PHBhdGggY2xhc3M9InVyb2NvbDEiIGQ9Ik00NzUuMiA5My41Yy00LjguMy0xNS42LS43LTMxLjEtMTIuNC0yMC41LTE1LjUtMzYuMy01LjEtMzYuMy01LjFsLTIuOSAxLjYuOSAxLjZjOS4yLTEuMSAxMy4xIDQuMyAzMS43IDE4IDE3LjIgMTIuNiAzMS44IDMuNiAzNy43LTEuNHYtMi4zeiIvPjxwYXRoIGNsYXNzPSJ1cm9jb2wwIiBkPSJNNDUwLjMgNzguOGMyLjkgMi41IDUuNCA0LjcgNy45IDYuMkw0MjYgMS40aC0xNC4xbC0zOS4xIDEwMS43aDE3LjdsOS42LTI2LjYgMTguOS01MyAxNiA0Ni42YzMuNiAxLjEgNy4zIDIgMTUuMyA4Ljd6Ii8+PC9zdmc+);}a.isiBodyLink:link, a.isiBodyLink:visited  {color:#358082; text-decoration:underline; font-weight:700; }a.isiBodyLink:hover  { color:#024D4F; text-decoration:none; }.isiHeader{background-color:#FFE3E2;}.isiHeader{font-family: 'Roboto', sans-serif; color:#D23E49; text-align:center; padding: 1px 7px 2px 9px; color: #D23E49; text-align:center;}a.isiHeader:link,a.isiHeader:visited { color:#000000; text-decoration:underline; }.isiHeaderText{font-size:12px; color: #D23E49; font-weight:700; text-align:center;}a.isiHeader:hover { color:#000000; text-decoration:none; }.stopText { font-family:'Roboto', sans-serif;font-weight:400;color:#ffffff; background-color:#000000; font-size:12px; line-height:1em; text-align:center;padding:3px;transform:translate3d(0,0,0);}.openCloseSVG{fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;}#isiBody::-webkit-scrollbar {-webkit-appearance:none; width:7px; background-color:#F9F9F9; }#isiBody::-webkit-scrollbar-thumb { background-color:#D0D2D3;border-radius: 7px;}.isiBody {font-size:9px; line-height:10px;padding:6px 8px 0px 8px;}h1 {font-size:12px;margin-top: -1px; margin-block-end:1.1em;line-height:14px;}h2 {font-size:12px; }#legalTextFooterText{font-size:8px; color: #858e93; padding:2px 7px;  text-align:center;}.isiFooter{text-align:center;}.isiHeader{font-size:12px;    padding: 2px 0px; }.isiHolder{    border-left: 1px solid #000000;}li.isiLI{margin-bottom: 6px;}.moveup{margin-block-end: 0em;}.moveText{margin-block-end: 0em;}p {margin-block-start: .7em;margin-block-end: .7em;}.isiLogo {width:50px;}.isiBody {font-size:9px; line-height:10px; }h1 {font-size:12px; }h2 {font-size:11px; }.isiHeader{font-size:14px; padding: 2px 0px; }.isiFooter{font-size:10px; padding:2px 7px; }#openClose {width:15px; height:15px; top:6px; right:3px; cursor:pointer; }.isiHolder {opacity:0;display:flex;flex-direction:column;position:absolute;box-sizing: border-box;top:0px;left:485px;width:242px;height:90px;}#isiHolder div {opacity:1; position:relative;}.isiBody {flex:1;overflow-x: hidden;overflow-y: auto;}.stopText {box-sizing: border-box !important;position:absolute !important;width:100%;height:auto;}.stopTag {height:auto;width:100%;}</style></head>
+    <body id="dim728x90">
+        <div id="adHolder">
+            <div id="adBody" style="opacity: 1; visibility: inherit;">
+                <div id="background" style="opacity: 1; visibility: inherit;"></div>
+                <div id="ipad" style="opacity: 0; visibility: hidden; left: 798px; transform: scale(0.34, 0.34); top: -245px;"></div>
+                <div id="toilet" style="opacity: 0; visibility: hidden; left: 319px;"></div>
+                <div id="tesa" style="opacity: 0; visibility: hidden; left: 286px;"></div>
+                <div id="blueOverlay" style="left: 0px; opacity: 1; visibility: inherit;"></div>
+                <div id="redOverlay" style="opacity: 1; visibility: inherit; left: -15px;"></div>
+                <div id="text6" style="opacity: 1; visibility: inherit; top: 7px;">See if you can score<br>savings on Gemtesa</div>
+                <div id="tesaCard" style="opacity: 1; visibility: inherit; top: 0px;"></div>
+                <div id="tesaAndDoc" style="opacity: 0; visibility: hidden; top: 96px;"></div>
+                <div id="logo" style="opacity: 0; visibility: hidden; left: 365px; top: 11px; transform: translate(0px, 0px);"></div>
+                <div id="gemtesa" style="opacity: 1; visibility: inherit; left: 350px; top: 0px; transform: translate(0px, 0px);"></div>
+                <div id="text1" style="opacity: 0; visibility: hidden; left: 740px;">Don’t let overactive<br>bladder (OAB)</div>
+                <div id="text2" style="opacity: 0; visibility: hidden; left: 12px;">THROW YOU<br>OFF YOUR GAME</div>
+                <div id="text3" style="opacity: 0; visibility: hidden; top: 111px;">Ask a provider<br>about GEMTESA</div>
+                <div id="text4" style="left: 31px; opacity: 0; visibility: hidden; top: -64px;"><span>You may</span> pay<br>as little as</div>
+                <div id="zeroNumber" style="left: 166px; opacity: 0; visibility: hidden; top: -63px;"></div>
+                <div id="text5" style="left: 230px; opacity: 0; visibility: hidden; top: -63px;">for a <b>90-day</b><br>supply<sup>*</sup></div>
+                <div id="eyebrow" style="opacity: 0; visibility: hidden; left: 0px; top: -90px;">LIMITED TIME OFFER</div>
+                <div id="Card" style="left: 377px; opacity: 0; visibility: hidden; top: -63px;"></div>
+                <div id="footnote" style="left: 32px; opacity: 0; visibility: hidden; top: -15px;"><sup>*</sup>Offer valid through 3/31/22. For eligible, commercially insured patients only. Terms and conditions apply.</div>
+                <div id="cta" style="opacity: 1; visibility: inherit; left: 13px;">
+                    VIEW SAVINGS
+                    <div id="arrow" style="opacity: 1; visibility: inherit;"></div>
+                </div>
+                <div id="hotspot" style="opacity: 1; visibility: inherit;"></div>
+                <div id="isiHolder" class="isiHolder" style="opacity: 1; visibility: inherit; top: 0px;"><div id="isiHeader" class="isiHeader"><a href="javascript:foo()" class="isiHeaderText" id="isiLink101">Please see full Product Information</a></div><div id="isiBody" class="isiBody"><h1>IMPORTANT SAFETY INFORMATION &amp; USE</h1><p class="moveup"><b>Do not</b> take GEMTESA<sup>®</sup> (vibegron) if you are allergic to vibegron or any of the ingredients in GEMTESA.</p><p><b>Before you take GEMTESA, tell your doctor about all your medical conditions, including if you</b> have liver problems; have kidney problems; have trouble emptying your bladder or you have a weak urine stream; take medicines that contain digoxin; are pregnant or plan to become pregnant (it is not known if GEMTESA will harm your unborn baby; talk to your doctor if you are pregnant or plan to become pregnant); are breastfeeding or plan to breastfeed (it is not known if GEMTESA passes into your breast milk; talk to your doctor about the best way to feed your baby if you take GEMTESA).</p><p class="moveText"><b>Tell your doctor about all the medicines you take,</b> including prescription and over-the-counter medicines, vitamins, and herbal supplements. Know the medicines you take. Keep a list of them to show your doctor and pharmacist when you get a new medicine.</p><p><b>What are the possible side effects of GEMTESA?</b></p><p class="moveup">GEMTESA may cause serious side effects <b>including the inability to empty your bladder (urinary retention).</b> GEMTESA may increase your chances of not being able to empty your bladder, especially if you have bladder outlet obstruction or take other medicines for treatment of overactive bladder. Tell your doctor right away if you are unable to empty your bladder.</p><p>The most common side effects of GEMTESA include headache, urinary tract infection, nasal congestion, sore throat or runny nose, diarrhea, nausea and upper respiratory tract infection. These are not all the possible side effects of GEMTESA. For more information, ask your doctor or pharmacist.</p><p><b>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1‑800‑FDA‑1088.</b></p><h1>What is GEMTESA?</h1><p class="moveup">GEMTESA is a prescription medicine for adults used to treat the following symptoms due to a condition called overactive bladder:</p><ul class="isiUL"><li class="isiLI">urge urinary incontinence: a strong need to urinate with leaking or wetting accidents</li><li class="isiLI">urgency: the need to urinate right away</li><li class="isiLI">frequency: urinating often</li></ul><p>It is not known if GEMTESA is safe and effective in children.</p><p><b>Please see full <a href="javascript:foo()" class="isiBodyLink" id="isiLink102"> Product Information</a>.</b></p><div id="urovantISILogo" class="isiurovantLogo"></div><p>UROVANT, UROVANT SCIENCES, the UROVANT SCIENCES logo, GEMTESA, and the GEMTESA logo are trademarks of Urovant Sciences GmbH, registered in the U.S. and in other countries. All other trademarks are the property of their respective owners.<br>©2021 Urovant Sciences. All rights reserved.<br><span id="projectISINumber">US-VBGN-2100370</span> <span id="projectISIDate">10/21</span></p></div><div id="stopText" class="stopText" style="bottom: 0px; opacity: 0; visibility: hidden; width: 235px;"><b>scroll down for more safety information.</b></div></div>
+                
+            </div>
+            <div id="borderHolder" style="opacity: 1; visibility: inherit;"><div style="border-left: 1px solid rgb(0, 0, 0); width: 0px; height: 90px; top: 0px; left: 0px; z-index: 1000; opacity: 1 !important;"></div><div style="border-right: 1px solid rgb(0, 0, 0); width: 0px; height: 90px; top: 0px; left: 727px; z-index: 1001; opacity: 1 !important;"></div><div style="border-top: 1px solid rgb(0, 0, 0); width: 726px; height: 0px; top: 0px; left: 1px; z-index: 1002; opacity: 1 !important;"></div><div style="border-bottom: 1px solid rgb(0, 0, 0); width: 726px; height: 0px; top: 89px; left: 1px; z-index: 1003; opacity: 1 !important;"></div></div>
+        </div>
+    
+</body></html>

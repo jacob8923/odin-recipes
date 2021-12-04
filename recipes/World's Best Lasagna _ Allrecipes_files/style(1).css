@@ -1,0 +1,96 @@
+body {margin: 0px;}
+
+#container {
+	background-color: black;
+	cursor: pointer;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	pointer-events: none;
+    width: 300px;
+	height: 250px;
+}
+
+#container * {
+	position: absolute;
+}
+
+
+#border{
+    border: 1px solid gray;  
+	width: 100%;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#clickthru{
+	width: 100%;
+	height: 100%;
+	pointer-events: auto;
+}
+
+/*-------------- SPRITE -------------*/
+.sprite { background: url('sprite.png') no-repeat top left; width: 200px; height: 215px; background-size: 200px 215px;  } 
+.sprite.legal { background-position: 0 0; width: 124px; height: 41px; } 
+.sprite.cta-text1 { background-position: 0 -46px; width: 87px; height: 11px; } 
+.sprite.logo { background-position: 0 -62px; width: 117px; height: 58px; } 
+.sprite.t1-2 { background-position: 0 -125px; width: 151px; height: 15px; } 
+.sprite.t1-3 { background-position: 0 -145px; width: 132px; height: 32px; } 
+.sprite.t1-1 { background-position: 0 -182px; width: 104px; height: 14px; } 
+.sprite.t1-4 { background-position: 0 -201px; width: 200px; height: 14px; } 
+/*--------- SPRITE POSITION ---------*/
+
+
+.t1-1 {top: 6px;left: 8px;} 
+.t1-2 {top: 6px;left: 10px;} 
+.t1-3 {top: 6px;left: 10px;} 
+.t1-4 {top: 6px;left: 9px;} 
+.legal {bottom: -1px;right: -1px;} 
+.logo {bottom: -1px;left: 0px;} 
+.cta-text1, .cta-text2 {top: 4px;left: 7px;} 
+.cta-text2 { opacity:0 } 
+.circle {
+    background-color: white;
+    border-radius: 30px;
+}
+.circle1 {
+    width: 119px;
+    height: 26px;
+    top: 52px;
+    left: 15px;
+}
+.circle2 {
+    width: 170px;
+    height: 26px;
+    top: 86px;
+    left: 15px;
+}
+.circle3 {
+    width: 162px;
+    height: 43px;
+    top: 120px;
+    left: 15px;
+}
+.circle4 {
+    width: 219px;
+    height: 26px;
+    top: 171px;
+    left: 15px;
+}
+/*-------- IMAGES | POSITION --------*/
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.bg, .shadow{
+	width: 100%;
+	height: 100%;
+}
+.cta {
+    width: 101px;
+    height: 19px;
+    top: 209px;
+    left: 192px;
+}

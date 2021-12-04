@@ -1,0 +1,200 @@
+/*<uid>2289</uid> <timestamp>1.6331.1976.1857</timestamp> <date>Fri Oct 01 2021 15:22:41 GMT-0500 (Colombia Standard Time)</date>*/
+sup {
+    vertical-align: text-top;
+    font-size: 0.6em;
+    line-height: 1.5em;
+}
+
+#background {
+    width: 728px;
+    height: 90px;
+    background-color: #D23E49;
+}
+
+#ipad {
+    background-image: url(../images/iPad.png);
+    width: 538px;
+    height: 684px;
+    left: -25px;
+    top: -145px;
+}
+
+#toilet {
+    background-image: url(../images/toilet.png);
+    width: 208px;
+    height: 216px;
+    top: -9px;
+    background-size: 50%;
+}
+
+#tesa {
+    background-image: url(../images/tesa.png);
+    width: 122px;
+    height: 150px;
+    background-size: 50%;
+    left: 286px;
+    top: 15px;
+}
+
+#blueOverlay {
+    background-image: url(../images/blueOverlay.png);
+    width: 501px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+
+#redOverlay {
+    background-image: url(../images/redOverlay.png);
+    width: 501px;
+    height: 90px;
+    left: -15px;
+    top: 0px;
+}
+
+#tesaAndDoc {
+    background-image: url(../images/tesaanddoctor.png);
+    width: 230px;
+    height: 168px;
+    background-size: 50%;
+    left: 222px;
+    top: 6px;
+}
+
+#logo {
+    background-image: url(../images/logo.png);
+    width: 176px;
+    height: 106px;
+    background-size: 63%;
+    left: 365px;
+    top: 11px;
+}
+
+#gemtesa {
+    background-image: url(../images/gemtesa.png);
+    width: 322px;
+    height: 180px;
+    background-size: 50%;
+    left: 350px;
+    top: 0px;
+}
+
+#zeroNumber {
+    background-image: url(../images/zeroNumber.png);
+    width: 90px;
+    height: 72px;
+    background-size: 57%;
+    left: 166px;
+    top: 27px;
+}
+
+#Card {
+    background-image: url(../images/memberCard.png);
+    width: 174px;
+    height: 106px;
+    background-size: 43%;
+    left: 377px;
+    top: 27px;
+}
+
+#tesaCard {
+    background-image: url(../images/tesaCard.png);
+    width: 186px;
+    height: 180px;
+    background-size: 50%;
+    left: 224px;
+    top: 0px;
+}
+
+#text1, #text2, #text3, #text4, #text5, #footnote, #text6, #eyebrow, #cta {
+    font-family: 'Roboto', sans-serif;
+    left: 12px;
+    top: 21px;
+    white-space: nowrap;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#text3 {
+    color: #D23E49;
+}
+
+#text4 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    top: 26px;
+    left: 31px;
+    text-transform: inherit;
+    text-align: left;
+}
+
+    #text4 span {
+        font-weight: 400;
+    }
+
+#text5 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    top: 27px;
+    left: 230px;
+    letter-spacing: 0px;
+    text-transform: inherit;
+    text-align: left;
+}
+
+#text6 {
+    font-size: 17px;
+    line-height: 19px;
+    top: 7px;
+}
+
+#footnote {
+    font-size: 9px;
+    line-height: 11px;
+    font-weight: 400;
+    top: 75px;
+    left: 32px;
+    letter-spacing: 0px;
+    text-transform: inherit;
+}
+
+#eyebrow {
+    background: #ffffff;
+    width: 485px;
+    height: 19px;
+    color: #D23E49;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding-top: 2px;
+}
+
+#cta {
+    background: #ffffff;
+    color: #D23E49;
+    width: 127px;
+    height: 24px;
+    top: 50px;
+    left: 13px;
+    text-align: start;
+    border-radius: 22px;
+    font-size: 14px;
+    padding-left: 17px;
+    padding-top: 2.5px;
+}
+
+
+#arrow {
+    background-image: url(../images/arrow.png);
+    width: 14px;
+    height: 14px;
+    top: 6.5px;
+    left: 119px;
+}
